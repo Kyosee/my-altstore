@@ -46,3 +46,5 @@ jobs:
           git add apps.json
           git commit -m "chore: sync Kazumi AltStore source"
           git push
+
+# (re-index nudge)
