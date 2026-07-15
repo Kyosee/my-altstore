@@ -1,0 +1,48 @@
+name: Update AltStore source
+
+on:
+  # User chose: check upstream once per day. 06:17 UTC is an off-peak, non-round
+  # minute to avoid the top-of-hour scheduler congestion on GitHub Actions.
+  schedule:
+    - cron: "17 6 * * *"
+  # Allow manual runs from the Actions tab.
+  workflow_dispatch:
+
+# Only the default read-only token plus permission to push the regenerated
+# apps.json back to this repo. No other scopes.
+permissions:
+  contents: write
+
+concurrency:
+  group: update-source
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      # Pinned to a commit SHA (v7.0.0) rather than a moving tag, so a
+      # compromised/retagged action release cannot silently run here.
+      - name: Checkout
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      # ubuntu-latest ships a system python3; the script is pure stdlib so we
+      # deliberately do NOT pull in setup-python (one fewer third-party action).
+      - name: Regenerate apps.json
+        env:
+          # Read-only use: only raises the unauthenticated API rate limit.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_source.py
+
+      - name: Commit changes if any
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- apps.json; then
+            echo "apps.json unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add apps.json
+          git commit -m "chore: sync Kazumi AltStore source"
+          git push

@@ -1,0 +1,79 @@
+{
+  "name": "Kazumi (Unofficial AltStore Source)",
+  "identifier": "com.kyosee.kazumi-altstore",
+  "subtitle": "Auto-tracks upstream Predidit/Kazumi iOS releases",
+  "description": "Unofficial AltStore/SideStore source for Kazumi. Every download link points directly at the official Predidit/Kazumi GitHub release asset; no binaries are re-hosted here. See the repository README for details.",
+  "iconURL": "https://raw.githubusercontent.com/Predidit/Kazumi/main/assets/images/logo/logo_ios.png",
+  "website": "https://github.com/Predidit/Kazumi",
+  "apps": [
+    {
+      "name": "Kazumi",
+      "bundleIdentifier": "com.example.kazumi",
+      "developerName": "Predidit",
+      "subtitle": "A cross-platform video streaming client",
+      "localizedDescription": "Kazumi is a cross-platform video streaming client built with Flutter. This entry is auto-generated from the official Predidit/Kazumi GitHub releases.",
+      "iconURL": "https://raw.githubusercontent.com/Predidit/Kazumi/main/assets/images/logo/logo_ios.png",
+      "tintColor": "5A9BF6",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "2.2.0",
+          "buildVersion": "20200",
+          "date": "2026-07-09",
+          "localizedDescription": "- 新增API规则支持 (@Predidit)\r\n- 新增 Windows 平台系统代理支持 (@Predidit)\r\n- 修复历史记录较多时应用启动卡顿的问题 (#2293) (#2233) (@Predidit)\r\n- 修复已经已完播剧集重复观看从结尾处开始的问题 (#2222) (@Predidit)\r\n- 修复部分 Android 设备硬件解码不生效的问题 (@Predidit)\r\n- 修复特定情况下播放器控制面板不会自动隐藏的问题 (@liangyuR)\r\n- 修复部分地区规则仓库镜像不可用的问题 (@Predidit)\r\n- 修复HTTP站点不可用的问题 (#2292) (@Predidit)\r\n- 更多的播放器控制面板动效 (@LiggMax)\r\n- 其他代码结构调整 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.0/Kazumi_ios_2.2.0_no_sign.ipa",
+          "size": 28150602,
+          "sha256": "8258be4a1ba8577a82d098e88bd0593830c95a7346fa21e6e7c6ff13a9e93783",
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "2.1.8",
+          "buildVersion": "20108",
+          "date": "2026-07-02",
+          "localizedDescription": "- 新增 4:3 画面比例模式 (#2240) (@Predidit)\r\n- 桌面端播放器现在会记忆音量与静音状态 (#1599 #2046) (@liangyuR)\r\n- 长按倍速现在会跟随默认方向键/长按倍速设置 (#2248) (@UzawaReisaQwQ)\r\n- 改进特殊集数的识别与切集体验 (@liangyuR)\r\n- 改进弹幕时间偏移设置与相关底部面板 (@Predidit)\r\n- 调整 Android 默认硬件解码器为 MediaCodec，并升级播放组件 (@Predidit)\r\n- 修复部分地区Github规则镜像不生效的问题 (@Predidit)\r\n- 修复特定情况下多次快进可能导致弹幕冻结的问题 (@Predidit)\r\n- 优化项目文档 (@ChouChiu)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.8/Kazumi_ios_2.1.8_no_sign.ipa",
+          "size": 28346335,
+          "sha256": "282d2a6f04a400b6b1aae74175a88b307e799394be3acc49506fb827f4abfe1e",
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "2.1.7",
+          "buildVersion": "20107",
+          "date": "2026-06-25",
+          "localizedDescription": "- 现在 Bangumi 镜像功能与 Bangumi 同步功能可以兼容 (@Predidit)\r\n- 现在缓存视频支持播放记录功能 (@liangyuR)\r\n- 新增可选的追番计数器功能 (@UzawaReisaQwQ)\r\n- 新增实验性 windows arm 支持 (@NihilDigit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.7/Kazumi_ios_2.1.7_no_sign.ipa",
+          "size": 28341165,
+          "sha256": "8c1e0f4b9cafd7f7d6380eeb048686e49c29ba9aaefc417a852536d6971aa20a",
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "2.1.6",
+          "buildVersion": "20106",
+          "date": "2026-06-18",
+          "localizedDescription": "- 新增高级搜索支持 (@UzawaReisaQwQ @Predidit)\r\n- 图片预览现在支持多图浏览 (@LiggMax)\r\n- 新增播放器控制层自动隐藏时间设置 (@hl1282456555 @Predidit)\r\n- 改进桌面端触摸屏播放器交互 (#722 #2224) (@Predidit)\r\n- 新增播放调试信息中的视频码率显示 (@Predidit)\r\n- 修复特定情况下弹幕开关状态无法立即生效的问题 (@Predidit)\r\n- 新增 Linux arm64 构建支持 (#721) (@Yohane-Mashiro @Predidit)\r\n- 修复 Android 平台快进手势可能导致崩溃的问题 (#2211) (@Predidit)\r\n- 调整 Android 播放渲染路径，改善播放兼容性与超分辨率性能 (@Predidit)\r\n- 其他代码结构与构建系统改进 (@LiggMax)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.6/Kazumi_ios_2.1.6_no_sign.ipa",
+          "size": 28334562,
+          "sha256": "51e0beb93f0fc69693bfc6b3ad4c604099c1f6bcb0fd8337bcd22c6ff052ced1",
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "2.1.5",
+          "buildVersion": "20105",
+          "date": "2026-06-11",
+          "localizedDescription": "- 现在批量下载功能支持并行视频解析 (@liangyuR @Predidit)\r\n- 修复更新功能不可用的问题 (@Predidit)\r\n- 修复下载文件大小计量不准确的问题 (#2177) (@Predidit)\r\n- 修复 android 平台手势快进可能导致崩溃的问题 (#2197) (@Predidit)\r\n- 修复特定情况下 webdav 同步无法正确更新选集位置的问题 (#2207) (@Predidit)\r\n- 代码结构优化 (@wqnmlgb151)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.5/Kazumi_ios_2.1.5_no_sign.ipa",
+          "size": 28035611,
+          "sha256": "bde8cc8f58eec4d9096aeeae20a6377b02a7ab5e7136ca8034845769c0aee9c6",
+          "minOSVersion": "13.0"
+        }
+      ],
+      "version": "2.2.0",
+      "versionDate": "2026-07-09",
+      "versionDescription": "- 新增API规则支持 (@Predidit)\r\n- 新增 Windows 平台系统代理支持 (@Predidit)\r\n- 修复历史记录较多时应用启动卡顿的问题 (#2293) (#2233) (@Predidit)\r\n- 修复已经已完播剧集重复观看从结尾处开始的问题 (#2222) (@Predidit)\r\n- 修复部分 Android 设备硬件解码不生效的问题 (@Predidit)\r\n- 修复特定情况下播放器控制面板不会自动隐藏的问题 (@liangyuR)\r\n- 修复部分地区规则仓库镜像不可用的问题 (@Predidit)\r\n- 修复HTTP站点不可用的问题 (#2292) (@Predidit)\r\n- 更多的播放器控制面板动效 (@LiggMax)\r\n- 其他代码结构调整 (@Predidit)",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.0/Kazumi_ios_2.2.0_no_sign.ipa",
+      "size": 28150602
+    }
+  ],
+  "_generatedAt": "2026-07-15T10:34:36+00:00"
+}
