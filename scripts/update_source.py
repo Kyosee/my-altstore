@@ -43,13 +43,13 @@ IPA_ASSET_RE = re.compile(r"^Kazumi_ios_.*\.ipa$", re.IGNORECASE)
 KEEP_VERSIONS = 5
 
 # Source-level metadata for the AltStore feed itself.
-SOURCE_NAME = "Kazumi (Unofficial AltStore Source)"
-SOURCE_IDENTIFIER = "com.kyosee.kazumi-altstore"
-SOURCE_SUBTITLE = "Auto-tracks upstream Predidit/Kazumi iOS releases"
+SOURCE_NAME = "Personal AltStore Source"
+SOURCE_IDENTIFIER = "com.kyosee.altstore-source"
+SOURCE_SUBTITLE = "Personal auto-updating AltStore source"
 SOURCE_DESCRIPTION = (
-    "Unofficial AltStore/SideStore source for Kazumi. Every download link "
-    "points directly at the official Predidit/Kazumi GitHub release asset; "
-    "no binaries are re-hosted here. See the repository README for details."
+    "A personal AltStore/SideStore source. Every download link points "
+    "directly at the corresponding upstream official GitHub release asset; "
+    "no binaries are re-hosted here."
 )
 
 APP_NAME = "Kazumi"

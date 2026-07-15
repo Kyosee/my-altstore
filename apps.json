@@ -1,8 +1,8 @@
 {
-  "name": "Kazumi (Unofficial AltStore Source)",
-  "identifier": "com.kyosee.kazumi-altstore",
-  "subtitle": "Auto-tracks upstream Predidit/Kazumi iOS releases",
-  "description": "Unofficial AltStore/SideStore source for Kazumi. Every download link points directly at the official Predidit/Kazumi GitHub release asset; no binaries are re-hosted here. See the repository README for details.",
+  "name": "Personal AltStore Source",
+  "identifier": "com.kyosee.altstore-source",
+  "subtitle": "Personal auto-updating AltStore source",
+  "description": "A personal AltStore/SideStore source. Every download link points directly at the corresponding upstream official GitHub release asset; no binaries are re-hosted here.",
   "iconURL": "https://raw.githubusercontent.com/Predidit/Kazumi/main/assets/images/logo/logo_ios.png",
   "website": "https://github.com/Predidit/Kazumi",
   "apps": [
@@ -75,5 +75,5 @@
       "size": 28150602
     }
   ],
-  "_generatedAt": "2026-07-15T10:34:36+00:00"
+  "_generatedAt": "2026-07-15T10:47:55+00:00"
 }
