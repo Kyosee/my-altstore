@@ -18,6 +18,16 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "2.2.1",
+          "buildVersion": "20201",
+          "date": "2026-07-16",
+          "localizedDescription": "- 重新设计启动向导及多个页面 (@Predidit)\r\n- 新增 windows/macOS 平台缓存目录自定义功能 (#2237) (@NanoShiki @0Chencc)\r\n- 修复 android 平台动态取色不稳定的问题 (@Predidit)\r\n- 增强一起看功能可靠性 (#1710 #1850 #1992) (@ChEnylnti)\r\n- 增强桌面平台播放器快捷键的可靠性 (@Predidit)\r\n- 现在 Linux 平台支持外部播放器功能 (@Predidit)\r\n- 增强规则更新可靠性 (@Predidit)\r\n- 修复调试模式下热重载不可用的问题 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.1/Kazumi_ios_2.2.1_no_sign.ipa",
+          "size": 29172455,
+          "sha256": "404e675c2e675266ef7b5471c2779f820267dab65e51bbe1707233294bd59650",
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.2.0",
           "buildVersion": "20200",
           "date": "2026-07-09",
@@ -56,24 +66,14 @@
           "size": 28334562,
           "sha256": "51e0beb93f0fc69693bfc6b3ad4c604099c1f6bcb0fd8337bcd22c6ff052ced1",
           "minOSVersion": "13.0"
-        },
-        {
-          "version": "2.1.5",
-          "buildVersion": "20105",
-          "date": "2026-06-11",
-          "localizedDescription": "- 现在批量下载功能支持并行视频解析 (@liangyuR @Predidit)\r\n- 修复更新功能不可用的问题 (@Predidit)\r\n- 修复下载文件大小计量不准确的问题 (#2177) (@Predidit)\r\n- 修复 android 平台手势快进可能导致崩溃的问题 (#2197) (@Predidit)\r\n- 修复特定情况下 webdav 同步无法正确更新选集位置的问题 (#2207) (@Predidit)\r\n- 代码结构优化 (@wqnmlgb151)",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.5/Kazumi_ios_2.1.5_no_sign.ipa",
-          "size": 28035611,
-          "sha256": "bde8cc8f58eec4d9096aeeae20a6377b02a7ab5e7136ca8034845769c0aee9c6",
-          "minOSVersion": "13.0"
         }
       ],
-      "version": "2.2.0",
-      "versionDate": "2026-07-09",
-      "versionDescription": "- 新增API规则支持 (@Predidit)\r\n- 新增 Windows 平台系统代理支持 (@Predidit)\r\n- 修复历史记录较多时应用启动卡顿的问题 (#2293) (#2233) (@Predidit)\r\n- 修复已经已完播剧集重复观看从结尾处开始的问题 (#2222) (@Predidit)\r\n- 修复部分 Android 设备硬件解码不生效的问题 (@Predidit)\r\n- 修复特定情况下播放器控制面板不会自动隐藏的问题 (@liangyuR)\r\n- 修复部分地区规则仓库镜像不可用的问题 (@Predidit)\r\n- 修复HTTP站点不可用的问题 (#2292) (@Predidit)\r\n- 更多的播放器控制面板动效 (@LiggMax)\r\n- 其他代码结构调整 (@Predidit)",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.0/Kazumi_ios_2.2.0_no_sign.ipa",
-      "size": 28150602
+      "version": "2.2.1",
+      "versionDate": "2026-07-16",
+      "versionDescription": "- 重新设计启动向导及多个页面 (@Predidit)\r\n- 新增 windows/macOS 平台缓存目录自定义功能 (#2237) (@NanoShiki @0Chencc)\r\n- 修复 android 平台动态取色不稳定的问题 (@Predidit)\r\n- 增强一起看功能可靠性 (#1710 #1850 #1992) (@ChEnylnti)\r\n- 增强桌面平台播放器快捷键的可靠性 (@Predidit)\r\n- 现在 Linux 平台支持外部播放器功能 (@Predidit)\r\n- 增强规则更新可靠性 (@Predidit)\r\n- 修复调试模式下热重载不可用的问题 (@Predidit)",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.1/Kazumi_ios_2.2.1_no_sign.ipa",
+      "size": 29172455
     }
   ],
-  "_generatedAt": "2026-07-15T10:48:49+00:00"
+  "_generatedAt": "2026-07-16T08:36:02+00:00"
 }
