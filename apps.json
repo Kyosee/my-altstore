@@ -18,6 +18,16 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "2.2.5",
+          "buildVersion": "20205",
+          "date": "2026-07-30",
+          "localizedDescription": "> [!NOTE]\r\n> 这是 2.2.4 的热修复版本，更多更新日志参考 2.2.4",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.5/Kazumi_ios_2.2.5_no_sign.ipa",
+          "size": 29556445,
+          "sha256": "571d3cc2ccff147d8c20fa94aeab9ad91177011fdc81021e71c57354e11e22f4",
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.2.4",
           "buildVersion": "20204",
           "date": "2026-07-30",
@@ -56,24 +66,14 @@
           "size": 29172455,
           "sha256": "404e675c2e675266ef7b5471c2779f820267dab65e51bbe1707233294bd59650",
           "minOSVersion": "13.0"
-        },
-        {
-          "version": "2.2.0",
-          "buildVersion": "20200",
-          "date": "2026-07-09",
-          "localizedDescription": "- 新增API规则支持 (@Predidit)\r\n- 新增 Windows 平台系统代理支持 (@Predidit)\r\n- 修复历史记录较多时应用启动卡顿的问题 (#2293) (#2233) (@Predidit)\r\n- 修复已经已完播剧集重复观看从结尾处开始的问题 (#2222) (@Predidit)\r\n- 修复部分 Android 设备硬件解码不生效的问题 (@Predidit)\r\n- 修复特定情况下播放器控制面板不会自动隐藏的问题 (@liangyuR)\r\n- 修复部分地区规则仓库镜像不可用的问题 (@Predidit)\r\n- 修复HTTP站点不可用的问题 (#2292) (@Predidit)\r\n- 更多的播放器控制面板动效 (@LiggMax)\r\n- 其他代码结构调整 (@Predidit)",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.0/Kazumi_ios_2.2.0_no_sign.ipa",
-          "size": 28150602,
-          "sha256": "8258be4a1ba8577a82d098e88bd0593830c95a7346fa21e6e7c6ff13a9e93783",
-          "minOSVersion": "13.0"
         }
       ],
-      "version": "2.2.4",
+      "version": "2.2.5",
       "versionDate": "2026-07-30",
-      "versionDescription": "- 重新设计的设置页 (@Predidit)\r\n- 新增番剧关联选项卡 (@liangyuR)\r\n- 优化验证码规则检索速度 (@Predidit)\r\n- 现在在移动数据网络下自动启用节流模式 (@Predidit)\r\n- 优化Linux平台软件解码功能 (@Predidit)\r\n- 修复镜像模式下评论区GIF只显示第一帧的问题 (@Predidit)\r\n- 修复一起看功能在大陆地区不稳定的问题 (#2388) (@Predidit)",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.4/Kazumi_ios_2.2.4_no_sign.ipa",
-      "size": 29243380
+      "versionDescription": "> [!NOTE]\r\n> 这是 2.2.4 的热修复版本，更多更新日志参考 2.2.4",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.5/Kazumi_ios_2.2.5_no_sign.ipa",
+      "size": 29556445
     }
   ],
-  "_generatedAt": "2026-07-30T09:04:04+00:00"
+  "_generatedAt": "2026-07-31T09:18:10+00:00"
 }
