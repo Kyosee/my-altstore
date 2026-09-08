@@ -18,6 +18,16 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "2.3.1",
+          "buildVersion": "20301",
+          "date": "2026-09-07",
+          "localizedDescription": "- 重新设计的时间表页面 (@Predidit)\r\n- 重新设计的追番页面 (@Predidit)\r\n- 重新设计的我的页面 (@Predidit)\r\n- 重新设计的视频播放页面 (@Predidit)\r\n- 重新设计的规则管理页面 (@Predidit)\r\n- 重新设计的同步设置页面 (@Predidit)\r\n- 改进Bangumi同步流程 (@zhn1100)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.1/Kazumi_ios_2.3.1_no_sign.ipa",
+          "size": 29812172,
+          "sha256": "761c69703cddd3307383723747b3ca0b409fb9ba843e2bb3a27770841c791cad",
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "2.3.0",
           "buildVersion": "20300",
           "date": "2026-08-28",
@@ -56,24 +66,14 @@
           "size": 29554015,
           "sha256": "fc19d8ca721aabb540d12bfbae8d872df665b995eccbeca2f8458afc7fe969b5",
           "minOSVersion": "13.0"
-        },
-        {
-          "version": "2.2.6",
-          "buildVersion": "20206",
-          "date": "2026-08-01",
-          "localizedDescription": "- 修复图片加载问题",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.6/Kazumi_ios_2.2.6_no_sign.ipa",
-          "size": 29552334,
-          "sha256": "d3072ff736df531d3b24b7eec4f9a08e326c3d2a24dcebad372626b02dcc4d66",
-          "minOSVersion": "13.0"
         }
       ],
-      "version": "2.3.0",
-      "versionDate": "2026-08-28",
-      "versionDescription": "- 优化弹幕性能 (@LiggMax)\r\n- 支持规则批量导入功能 (#2486) (@chendianshuiyin)\r\n- 修复弹幕透明度调整失效的问题 (@Predidit)\r\n- 修复手动检索弹幕时部分番剧缺失的问题 (#2505) (@Predidit)\r\n- 优化无效视频来源与加载失败时的错误提示 (#435) (@Akw0od)\r\n- 修复弹幕持续时间设置在倍速下无法正确生效的问题 (#2511) (@Predidit)\r\n- 修复 Android 平台特定情况下系统媒体控制失效的问题 (@Predidit)\r\n- 修复番剧关联页混乱的过渡动画 (#2501) (@Predidit)\r\n- 现在打开下载选集将自动定位到当前播放集数 (@moonrailgun)\r\n- 其他 UI 调整 (@Predidit)\r\n- 文档更新 (@wisnotuu)",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.0/Kazumi_ios_2.3.0_no_sign.ipa",
-      "size": 29656485
+      "version": "2.3.1",
+      "versionDate": "2026-09-07",
+      "versionDescription": "- 重新设计的时间表页面 (@Predidit)\r\n- 重新设计的追番页面 (@Predidit)\r\n- 重新设计的我的页面 (@Predidit)\r\n- 重新设计的视频播放页面 (@Predidit)\r\n- 重新设计的规则管理页面 (@Predidit)\r\n- 重新设计的同步设置页面 (@Predidit)\r\n- 改进Bangumi同步流程 (@zhn1100)",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.1/Kazumi_ios_2.3.1_no_sign.ipa",
+      "size": 29812172
     }
   ],
-  "_generatedAt": "2026-09-07T12:38:16+00:00"
+  "_generatedAt": "2026-09-08T11:22:51+00:00"
 }
