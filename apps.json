@@ -18,6 +18,26 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "2.3.3",
+          "buildVersion": "20303",
+          "date": "2026-09-15",
+          "localizedDescription": "> [!NOTE]\r\n> 这是 2.3.2 的热修复版本，更多更新日志参考 2.3.2",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.3/Kazumi_ios_2.3.3_no_sign.ipa",
+          "size": 29823335,
+          "sha256": "061c99e74f1878a8a9de10ca6aa83dcc1761fd82dcab7e7c7ec97494c8530acc",
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "2.3.2",
+          "buildVersion": "20302",
+          "date": "2026-09-15",
+          "localizedDescription": "- 优化平板电脑与折叠屏布局适配 (@Predidit)\r\n- 设置页面现在支持宽屏分栏布局 (@LiggMax) (@Predidit)\r\n- 支持通过 WebDAV 同步弹幕屏蔽规则 (#1141 #2503) (@Predidit)\r\n- 低内存模式现在可以在数据网络下禁用 (#2514) (@Predidit)\r\n- 修复关闭评分显示后搜索结果和追番页面仍显示评分的问题 (#2545) (@Predidit)\r\n- 修复搜索结果中部分番剧标题显示不全的问题 (#2539) (@Predidit)\r\n- 修复搜索页面布局切换时输入法连接中断的问题 (@Predidit)\r\n- 修复未启用 WebDAV 观看历史同步时启动仍自动同步的问题 (@melancholyFishAndWater)\r\n- 修复退出播放页面时加载指示器一闪而过的问题 (@Predidit)\r\n- 其他 UI 调整 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.2/Kazumi_ios_2.3.2_no_sign.ipa",
+          "size": 29823319,
+          "sha256": "29019f65419eb6356111dfe4e894a564ebf4d32c65150043a29a8932539460fb",
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "2.3.1",
           "buildVersion": "20301",
           "date": "2026-09-07",
@@ -46,34 +66,14 @@
           "size": 29638292,
           "sha256": "72e294d8dca7dc320c11aed7847a942ac36bb2daa19e94e7218636ff9af979cf",
           "minOSVersion": "15.0"
-        },
-        {
-          "version": "2.2.8",
-          "buildVersion": "20208",
-          "date": "2026-08-15",
-          "localizedDescription": "- 适配 flutter 3.47 (@Predidit)\r\n- 修复 windows 平台部分视频来源只能播放5秒零碎片段的问题 (#2265 #1976 #2301) (@Predidit)\r\n- 兼容更多非标准视频流 (@zhn1100)\r\n- 桌面平台UI性能优化 (@Predidit)",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.8/Kazumi_ios_2.2.8_no_sign.ipa",
-          "size": 29635192,
-          "sha256": "2f15225e095957b2041d29504fdcec2adfaf6296df1d2b658f55c5e9e516276e",
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "2.2.7",
-          "buildVersion": "20207",
-          "date": "2026-08-08",
-          "localizedDescription": "- 制作人员列表现在得到正确排序 (#2051) (@ChouChiu)\r\n- 修复 Linux 平台 nvidia 设备启用超分辨率可能出现偏色的问题 (#1547) (@zhn1100)\r\n- 优化 windows 平台视频解析器 (@Predidit)\r\n- 其他 UI 调整 (@Predidit)\r\n- 其他文档调整 (@WhiteXero)",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.7/Kazumi_ios_2.2.7_no_sign.ipa",
-          "size": 29554015,
-          "sha256": "fc19d8ca721aabb540d12bfbae8d872df665b995eccbeca2f8458afc7fe969b5",
-          "minOSVersion": "13.0"
         }
       ],
-      "version": "2.3.1",
-      "versionDate": "2026-09-07",
-      "versionDescription": "- 重新设计的时间表页面 (@Predidit)\r\n- 重新设计的追番页面 (@Predidit)\r\n- 重新设计的我的页面 (@Predidit)\r\n- 重新设计的视频播放页面 (@Predidit)\r\n- 重新设计的规则管理页面 (@Predidit)\r\n- 重新设计的同步设置页面 (@Predidit)\r\n- 改进Bangumi同步流程 (@zhn1100)",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.1/Kazumi_ios_2.3.1_no_sign.ipa",
-      "size": 29812172
+      "version": "2.3.3",
+      "versionDate": "2026-09-15",
+      "versionDescription": "> [!NOTE]\r\n> 这是 2.3.2 的热修复版本，更多更新日志参考 2.3.2",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.3/Kazumi_ios_2.3.3_no_sign.ipa",
+      "size": 29823335
     }
   ],
-  "_generatedAt": "2026-09-15T11:47:41+00:00"
+  "_generatedAt": "2026-09-16T11:39:48+00:00"
 }
