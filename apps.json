@@ -18,6 +18,16 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "2.4.3",
+          "buildVersion": "20403",
+          "date": "2026-11-04",
+          "localizedDescription": "- 新增自定义规则仓库支持 (#2485) (@chendianshuiyin)\r\n- 优化远程投屏体验 (#2797 #2798) (@DSplay123)\r\n- 新增 iPhone Duo 内屏支持 (@Predidit)\r\n- 修复批量下载时排队剧集没有缓存弹幕的问题 (#2780) (@wanxinlei1)\r\n- 修复退出后系统托盘图标残留的问题 (#2762) (@fgfsgsgvo)\r\n- 修复 deb 软件包在精简安装的发行版上无法启动的问题 (#2755) (@Huayuluoshi)\r\n- 优化追番页切换分类时的流畅度 (@Predidit)\r\n- 文档更新 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.3/Kazumi_ios_2.4.3_no_sign.ipa",
+          "size": 30439714,
+          "sha256": "d62822b316d361a8296cb0b7e1ca49b55d9378463b181ea624562e147a2c7516",
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "2.4.2",
           "buildVersion": "20402",
           "date": "2026-10-23",
@@ -56,24 +66,14 @@
           "size": 30477942,
           "sha256": "af3f32ee66cdb2516a599b032fe91c316bff4c3c284a560b4884b3607b15448d",
           "minOSVersion": "15.0"
-        },
-        {
-          "version": "2.3.8",
-          "buildVersion": "20308",
-          "date": "2026-10-07",
-          "localizedDescription": "- 优化截图交互 (#2599) (@Predidit)\r\n- 统一应用内下拉菜单样式 (@Predidit)\r\n- 修复大字体下番剧详情页追番按钮与其他按钮重叠而无法点击的问题 (#2622) (@Predidit)\r\n- 修复宽屏设置页重复点击已选中分类时二级页面重复嵌套的问题 (#2607) (@Predidit)\r\n- 修复鼠标悬停时播放器控制栏动画反复重启的问题 (@Predidit)\r\n- 修复分集评论标题栏显示多余副标题的问题 (@Predidit)\r\n- 其他UI改进 (@Predidit)",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.8/Kazumi_ios_2.3.8_no_sign.ipa",
-          "size": 30463104,
-          "sha256": "d3bede0e72bfa8fd092e20e8a6e6e854462811296c1ab1d8a3507ff6e263dc69",
-          "minOSVersion": "15.0"
         }
       ],
-      "version": "2.4.2",
-      "versionDate": "2026-10-23",
-      "versionDescription": "- 修复部分地区规则仓库无法访问的问题",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.2/Kazumi_ios_2.4.2_no_sign.ipa",
-      "size": 30521004
+      "version": "2.4.3",
+      "versionDate": "2026-11-04",
+      "versionDescription": "- 新增自定义规则仓库支持 (#2485) (@chendianshuiyin)\r\n- 优化远程投屏体验 (#2797 #2798) (@DSplay123)\r\n- 新增 iPhone Duo 内屏支持 (@Predidit)\r\n- 修复批量下载时排队剧集没有缓存弹幕的问题 (#2780) (@wanxinlei1)\r\n- 修复退出后系统托盘图标残留的问题 (#2762) (@fgfsgsgvo)\r\n- 修复 deb 软件包在精简安装的发行版上无法启动的问题 (#2755) (@Huayuluoshi)\r\n- 优化追番页切换分类时的流畅度 (@Predidit)\r\n- 文档更新 (@Predidit)",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.3/Kazumi_ios_2.4.3_no_sign.ipa",
+      "size": 30439714
     }
   ],
-  "_generatedAt": "2026-11-03T14:20:47+00:00"
+  "_generatedAt": "2026-11-04T14:37:26+00:00"
 }
